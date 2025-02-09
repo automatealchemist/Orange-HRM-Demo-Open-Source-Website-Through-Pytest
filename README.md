@@ -39,16 +39,16 @@ pytest
 
 For detailed reporting with logs and screenshots, run:
 ```sh
-pytest --html=report.html --self-contained-html
+py.test -v --html=reports/report.html  
 ```
 
 ## Project Structure
 ```
 |-- tests/                 # Contains test cases
-|-- pages/                 # Page Object Model (POM) classes
+|-- pageObjects/           # Page Object Model (POM) classes
 |-- logs/                  # Stores log files
 |-- reports/               # Stores test execution reports
-|-- screenshots/           # Captures screenshots on test failures
+|-- TestData/              # Contains test data for script execution
 |-- conftest.py            # Pytest configuration file
 |-- requirements.txt       # List of dependencies
 |-- README.md              # Project documentation
