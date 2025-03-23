@@ -3,7 +3,7 @@
 
 This repository contains automated test scripts for the OrangeHRM Demo Website using the Pytest framework. The automation covers various features of the website, including login, employee management, and more.
 
-## Features Implemented
+## Features Implemented In This Framework
 
 - Pytest Framework – A simple and powerful testing framework for automation.
 - Page Object Model (POM) – Organizes test scripts in a structured way for better maintenance.
@@ -61,6 +61,5 @@ py.test -v --html=reports/report.html
 ## Contributions
 Feel free to fork this repository and contribute improvements by creating a pull request.
 
-Happy Testing.
 ```
 
